@@ -1,0 +1,220 @@
+.welcome{
+    background-color: linen;
+    color: maroon;
+    border-radius: 10px;
+    width:50%;
+    border-style: dashed;
+    text-shadow: 2px 2px red;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+    @-moz-keyframes slidein{
+        from{
+            margin-left:100%;
+            width:300%;
+        }
+        75%{
+            font-size:300%;
+            margin-left:25%;
+            width:150%;
+        }
+        to{
+            margin-left:0%;
+            width:100%;
+        }
+    }
+    @-webkit-keyframes slidein{
+        from{
+            margin-left:100%;
+            width:300%;
+        }
+        75%{
+            font-size:300%;
+            margin-left:25%;
+            width:150%;
+        }
+        to{
+            margin-left:0%;
+            width:100%;
+        }
+    }
+
+.dp{
+    border-radius: 15px 50px 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-style:double;
+    border-color: aqua;
+    background-color: #cc00ff;
+    opacity:50%;
+    padding: 15px;
+}
+a:hover{
+    color:gold;
+}
+a:active{
+    color:aquamarine;
+}
+body{
+    background-image: url("/css/images/nature.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #36c;
+    word-spacing: .2em;
+    margin-bottom: 2em;
+    text-transform: none;
+    background-attachment: fixed;
+    color: chartreuse;
+    text-shadow: 6px 6px 8px white;
+}   
+.email{
+    background-color: aliceblue;
+}
+.space{
+    margin-right: auto;
+    width:20%;
+    height:20%;
+    border-radius:50px;
+    border-color: #FFF000;
+}
+.spaceX{
+    width:20%;
+    height:20%;
+    
+}
+.myclass{
+    background-color: #aaa;
+    padding:10px;
+}
+td.a{
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 2px;
+    padding:5px;
+}
+td.b{
+    border-style:dashed;
+    border-color:lightcyan;
+    border-width: 3px;
+    padding:5px;
+}
+td.c{
+    border-style:inset;
+    border-color:brown;
+    border-width: 2px;
+    padding:5px;
+}
+td.d{
+    border-style:groove;
+    border-color:fuchsia;
+    border-width: 2px;
+    padding:5px;
+}
+td.e{
+    border-style:hidden;
+    border-color: aqua;
+    border-width: 2px;
+    padding:5px;
+}
+.scroll{
+    overflow: auto;
+    margin-top: 5px;
+    border:solid white;
+    display:block;
+    height: 50px;
+    width:350px;
+    padding:5px;
+}
+.position{
+    position:fixed;
+    left:50px;
+    bottom: 2px;
+    background-color: yellow;
+    color: #000;
+}
+.layer{
+    padding-right: 10%;
+    background-color:red;
+    width:300px; 
+    height:100px; 
+    position:relative; 
+    top:10px; 
+    left:80px; 
+    z-index:2;
+}
+p.Elements::first-letter{
+    font-size: 5em;
+    color: #000;
+}
+.filter{
+    Filter: Alpha(opacity=100,Finishopacity=0,Style=2,
+    StartX=20,StartY=40,FinishX=0,FinishY=0);
+    width:50%;
+    height:50%;
+    position:relative;
+
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large;
+    text-align:center;
+    color:#FFF000;
+    opacity: 30%;
+}
+.margin{
+    border:10px solid transparent;
+    padding:15px;
+    border-image-source: url(/css/images/border_design.jpg);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 10px;
+}
+#gradiant{
+    height: 100px;
+    background: -webkit-linear-gradient(left top, red , blue);
+    background: -o-linear-gradient(bottom right, red, blue); 
+    background: -moz-linear-gradient(bottom right, red, blue);
+    background: linear-gradient(to bottom right, red , blue);
+    -ms-transform: skewX(-20deg);
+    -webkit-transaform:skewX(-20deg);
+    transform:skewX(-20deg);
+}
+div#gradiant{
+    width: 300px;
+            height: 100px;
+            padding: 15px;
+            background-color:white;
+            box-shadow: 10px 10px;
+}
+.text{
+    white-space: nowrap;
+    width:500px;
+    border:1px solid yellow;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+#threed{
+    width:200px;
+    height:100px;
+    background-color: aqua;
+    border: 1px solid black;
+    -webkit-transform:rotateZ(90deg);
+    transform:rotateZ(90deg);
+    color: #cc00ff;
+    float:right;
+}
+li:nth-child(2) {
+    color:blue;
+    font-size:25px;
+    
+}
+textarea ~ button{
+    color:deepskyblue;
+}
